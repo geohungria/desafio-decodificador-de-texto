@@ -1,0 +1,92 @@
+.container {
+    display: flex; 
+    justify-content: space-between; /* Opcional: adiciona espaço entre as divs */
+  }
+  
+  .box1{
+    width: 65%; /* Define a largura das divs para que caibam lado a lado */
+    padding: 10px; /* Opcional: adiciona algum preenchimento */
+    height: 700px;
+    background-color:white; /* Opcional: define a cor de fundo para visualização */
+  }
+
+  .box2{
+    width: 35%; /* Define a largura das divs para que caibam lado a lado */
+    padding: 10px; /* Opcional: adiciona algum preenchimento */
+    height: 700px;
+    background-color: pink; /* Opcional: define a cor de fundo para visualização */
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os botões */
+    margin-top: 50px;
+}
+
+.round-button {
+    padding: 15px 25px;
+    margin-bottom: 50px;
+    width:328px;
+    height: 67px;
+    border-radius: 50px; /* Torna o botão redondo */
+    border-color: black;
+    background-color: pink; /* Cor de fundo azul */
+    color:black; /* Cor do texto */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.round-button:hover {
+    background-color: white; /* Cor de fundo ao passar o mouse */
+}
+
+.textarea-container {
+    display: flex;
+    justify-content: left;
+    padding-left: 13%;
+    margin-top: 50px;
+}
+
+.no-border {
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+    border: none; /* Remove a borda */
+    resize: none; /* Remove a opção de redimensionar */
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    box-shadow: none; /* Remove qualquer sombra */
+    outline: none; /* Remove o contorno ao focar */
+    font-family: Arial, sans-serif; /* Define a fonte */
+}
+
+/* Importando a fonte Inter do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Aplicando a fonte Inter ao elemento h2 */
+h2,p,button {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.espacamento{
+    text-align: left;
+    padding-left: 13%;
+}
+
+.hidden {
+    display: none;
+}
+
+.output-text{
+    height: 575px;
+}
+
+.box2-output-class{
+    text-align: center;
+}
+
+
+
+  

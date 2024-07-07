@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Referência ao arquivo CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="textarea-container">
+               <div> <textarea class="no-border" id="textarea" placeholder="Digite seu texto aqui..."></textarea></div>
+            </div>
+            <div><p class="warning espacamento"><i class="fas fa-info-circle icon"></i> Apenas letras minúsculas e sem acento.</p></div>
+            <div class="button-container">
+                <button id="criptografar" class="round-button">Criptografar</button>
+                <button id="descriptografar" class="round-button">Descriptografar</button>
+            </div>
+        </div>
+        <div class="box2">
+            <div id="box2-id">
+                <img src="Imagem-1.PNG">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <div class="box2-output-class" id="box2-output">
+                <p class="output-text" id="output"></p>
+                <button id="copiar" class="round-button" onclick="copiar()">Copiar</button>
+                <button id="colar" class="round-button" onclick="colar()">colar</button>
+            </div>
+        </div>
+      </div> 
+      <script src="script.js"></script>     
+</body>
+</html>
